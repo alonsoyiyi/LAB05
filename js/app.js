@@ -85,7 +85,7 @@ let testArray = [2, 3, 4]; //eslint-disable-line
 function sumArray(sumArr) { //eslint-disable-line
   let sumAR = 0;
   for (let i = 0; i < sumArr.length; i++){
-    sumAR += sumArr[i];
+    sumAR = sum(sumAR, sumArr[i])[0];
   }
   const mensaje = testArray[0] + ',' + testArray[1] + ',' + testArray[2] + ' was passed in as an array of numbers, and ' + sumAR + ' is their sum.';
   return [sumAR, mensaje];
