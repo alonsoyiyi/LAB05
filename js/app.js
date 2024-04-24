@@ -1,3 +1,4 @@
+/* eslint-disable no-trailing-spaces */
 'use strict';
 /////////////////////////////////////
 /* Problem 1 (this is your demo that we'll solve in class)
@@ -9,11 +10,12 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sum(a, b) { //eslint-disable-line
-
-}
-
+  const suma = a + b;   const mensaje = 'The sum of ' + a + ' and ' + b +' is ' + suma +'.';
+  return [suma,mensaje];
+}   
+sum(4, 7);
 // Here is the test for sum(); uncomment it to run it
-// testSum(4, 7);
+testSum(4, 7);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
