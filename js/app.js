@@ -90,7 +90,6 @@ function sumArray(sumArr) { //eslint-disable-line
   const mensaje = testArray[0] + ',' + testArray[1] + ',' + testArray[2] + ' was passed in as an array of numbers, and ' + sumAR + ' is their sum.';
   return [sumAR, mensaje];
 } 
-
 sumArray(testArray);
 
 
